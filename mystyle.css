@@ -1,0 +1,176 @@
+body{
+  background-color: #ffa180;
+}
+.time{
+  margin:100px;
+  margin-top:50px;
+  font-family: monospace;
+  font-size: 40px;
+}
+#clock{
+  margin-left: 120px;
+    font-size: 40px;
+    font-family: monospace;
+}
+@import url(http://fonts.googleapis.com/css?family=Rokkitt);
+ h1 {
+    font-family:'Rokkitt', serif;
+    text-align: center;
+	  color:blue;
+	  font-size:35px;
+}
+ul {
+    list-style: none;
+}
+li {
+    font-family:'Rokkitt', serif;
+    font-size: 2em;
+	color:#feb135;
+}
+input[type=radio] {
+    border: 0px;
+    width: 20px;
+    height: 2em;
+
+}
+p {
+    font-family:'Rokkitt', serif;
+}
+
+ .quizContainer {
+    background-color:#fff;
+    border-radius: 8px;
+    width: 75%;
+    margin: auto;
+	  margin-top: 125px;
+    padding-top: 5px;
+    position: relative;
+}
+.nextButton {
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color:#cc0000;
+    color:#fff;
+    font-family:'Rokkitt', serif;
+	font-weight:bold;
+    position: relative;
+    margin: auto;
+    padding-top: 20px;
+}
+.question {
+    font-family:'Rokkitt', serif;
+    font-size: 2em;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-radius: 6px;
+    background-color:#ededb7;
+    text-align: center;
+	color:#27a63;
+}
+.quizMessage {
+    background-color: peachpuff;
+    border-radius: 6px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding: 2px;
+    font-family:'Rokkitt', serif;
+    color: red;
+}
+.choiceList {
+    font-family: Courier, serif;
+    color: blueviolet;
+}
+.result {
+    width: 30%;
+    height: auto;;
+    border-radius: 6px;
+    background-color: linen;
+    margin: auto;
+	margin-bottom:35px;
+    text-align: center;
+    font-family:'Rokkitt', serif;
+}
+.drumkit {
+  text-align: center;
+  background-color: #283149;
+}
+
+.title{
+  text-align: center;
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+    text-align: center;
+
+}
+
+
+.w {
+  background-image: url("images/tom1.png");
+}
+
+.a {
+  background-image: url("images/tom2.png");
+}
+
+.s {
+  background-image: url("images/tom3.png");
+}
+
+.d {
+  background-image: url("images/tom4.png");
+}
+
+.j {
+  background-image: url("images/snare.png");
+}
+
+.k {
+  background-image: url("images/crash.png");
+}
+
+.l {
+  background-image: url("images/kick.png");
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+ .self{
+   text-align: center;
+     font-size: 2em;
+     margin-top: 150px;
+     text-decoration: underline;
+ }
